@@ -1,0 +1,29 @@
+<div class="layout">
+  <div class="column">
+    <app-svg (countryData)="onCountryDataReceived($event)"></app-svg>
+  </div>
+
+  <div class="column">
+    <table *ngIf="countryData">
+    <caption>{{ countryData.name || 'Not available'}}</caption>
+      <thead>
+        <tr>
+          <th>Capital</th>
+          <th>Region</th>
+          <th>Income Level</th>
+          <th>Longitude</th>
+          <th>Latitude</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> {{ countryData.capital || 'Not available'}}</td>
+          <td> {{ countryData.region || 'Not available'}}</td>
+          <td> {{ countryData.income || 'Not available'}}</td>
+          <td> {{ countryData.longitude || 'Not available'}}</td>
+          <td> {{ countryData.latitude || 'Not available'}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

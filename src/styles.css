@@ -1,0 +1,47 @@
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.column {
+    flex: 1;
+    padding: 10px; 
+  }
+  
+svg {
+    width: 70%;
+    height: auto;
+    position: absolute;
+}
+
+caption {
+    color: rgb(252, 0, 0);
+    font-size:xx-large;
+}
+
+table {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 250px;
+}
+
+table, th, td {
+    border: 1px solid rgb(252, 0, 0);
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: rgb(179, 179, 179);
+}
+
+td:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+path:hover {
+    fill: rgb(255, 0, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-width: 3px;
+    transition: fill 0.4s;
+}
