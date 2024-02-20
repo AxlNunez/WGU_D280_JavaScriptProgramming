@@ -32,3 +32,8 @@ This project leverages Angular to create an interactive world map that displays 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+![image](https://github.com/AxlNunez/WGU_D280_JavaScriptProgramming/assets/103554043/7e8fb7a5-78e1-42dd-b676-5ca74377eb7a)
+
+![image](https://github.com/AxlNunez/WGU_D280_JavaScriptProgramming/assets/103554043/a042ec6a-a375-4d1e-a589-a19797623cce)
+
